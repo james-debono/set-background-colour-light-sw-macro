@@ -17,16 +17,18 @@
 '
 ' To use, run the macro. A document does not need to be open.
 '
-'   Version   0.1.0
-'   Date      2026-08-09
+'   Version   0.1.1
+'   Date      2026-08-20
 '   Author    James Debono
 '   Licence   MIT - full text below
-'   Source    https://github.com/james-debono/solidworks-themes
+'   Source    https://github.com/james-debono/themes-sw-macro
 '
 '------------------------------------------------------------------------------
 ' CHANGELOG (summary - see CHANGELOG.md for the full history)
 '
-'   0.1.0   First numbered release.'
+'   0.1.1   Source URL updated for the repository rename.
+'   0.1.0   First numbered release.
+'
 '------------------------------------------------------------------------------
 ' MIT Licence
 ' SPDX-License-Identifier: MIT
