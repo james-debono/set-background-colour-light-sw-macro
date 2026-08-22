@@ -1,5 +1,5 @@
 '==============================================================================
-' Background - Light
+' Set Background - Colour Light
 '
 ' Sets the SOLIDWORKS graphics area background to plain white
 ' (R:255 G:255 B:255).
@@ -17,15 +17,16 @@
 '
 ' To use, run the macro. A document does not need to be open.
 '
-'   Version   0.1.1
-'   Date      2026-08-20
+'   Version   0.2.0
+'   Date      2026-08-21
 '   Author    James Debono
 '   Licence   MIT - full text below
-'   Source    https://github.com/james-debono/themes-sw-macro
+'   Source    https://github.com/james-debono/set-background-colour-light-sw-macro
 '
 '------------------------------------------------------------------------------
 ' CHANGELOG (summary - see CHANGELOG.md for the full history)
 '
+'   0.2.0   Renamed from "Background - Light". Now has its own repository.
 '   0.1.1   Source URL updated for the repository rename.
 '   0.1.0   First numbered release.
 '
@@ -85,9 +86,9 @@ try_:
     GoTo finally_
 
 catch_:
-    Debug.Print "Background - Light error: " & Err.Number & " - " & Err.Description
+    Debug.Print "Set Background - Colour Light error: " & Err.Number & " - " & Err.Description
     If Not swApp Is Nothing Then
-        swApp.SendMsgToUser2 "Background - Light failed: " & Err.Description, _
+        swApp.SendMsgToUser2 "Set Background - Colour Light failed: " & Err.Description, _
             swMessageBoxIcon_e.swMbWarning, swMessageBoxBtn_e.swMbOk
     End If
 
