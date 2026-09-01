@@ -4,8 +4,8 @@ A SOLIDWORKS macro that sets the graphics area background to plain white from a
 toolbar button, instead of clicking through **Tools > Options > System Options >
 Colors** every time.
 
-**Tested on SOLIDWORKS 2022, 2024 and 2025** — those are the versions I
-have. Other versions are likely to work; they are simply untested.
+**Tested on SOLIDWORKS 2022, 2024 and 2025.** Other versions are likely to
+work; they are simply untested.
 
 > **Want all ten macros at once?** This one is part of the [MacroShelf
 > Collection](https://github.com/james-debono/macroshelf-collection-sw-macro-library) — a single
